@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Rathod </title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .read-more {
+            display: inline-block;
+            background-color: #ffc107;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .skills {
+            margin-top: 40px;
+        }
+
+        .skill-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .skill-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 10px solid #eee;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .skill-circle::before {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            border-radius: 50%;
+            background-color: #ffc107;
+            transform-origin: 50% 100%;
+        }
+
+        .skill-percentage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .contact {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-button {
+            background-color: #ffc107;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .map {
+            margin-top: 40px;
+            height: 400px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> <b>Vivek Rathod</b></h1>
+            <nav>
+             <b><a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a> </b>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container" style="background-image: url('https://st4.depositphotos.com/5501600/21385/i/450/depositphotos_213852208-stock-photo-abstract-blue-digital-background-technology.jpg');background-size:cover;opacity: 70%;">
+        <div class="title">
+            <h2>Hello, I'm Vivek Rathod</h2>
+            <p><b>I am a commerce student</b></p>
+        </div>
+        <div class="about">
+            <p>I am a commerce student. And I am a study in b.com. I like to study commerce + Web development.</p>
+            <p>My education qualification:</p>
+            <ul>
+                <li>SSC from gseb (Years-2019-2020)</li>
+                <li>HSC from gseb (Years 2021-2022)</li>
+                <li>Bcom (Year 2022- continue)</li>
+            </ul>
+            <p>My achieved a certificate of</p>
+            <ul>
+                <li>Tally with a A+ grade</li>
+                <li>CCC with A+ grade</li>
+                <li>Web development</li>
+            </ul>
+            <a href="#skills" class="read-more">Read More</a>
+        </div>
+    </section>
+
+    <section id="skills" class="container skills">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+        <div class="skill-item">
+            <div class="skill-circle">
+                <div class="skill-percentage">80%</div>
+            </div>
+            <p>Marketing skills</p>
+        </div>
+        <div class="skill-item">
+            <div class="skill-circle">
+                <div class="skill-percentage">60%</div>
+            </div>
+            <p>Web development</p>
+        </div>
+        <div class="skill-item">
+            <div class="skill-circle">
+                <div class="skill-percentage">76%</div>
+            </div>
+            <p>Projects Capacity</p>
+         <a href="#contact" class="read-more">Read More</a>
+        
+        </div>
+    </section>
+
+    <section id="contact" class="container contact">
+        <div class="contact-title">
+            <h2>Contact</h2>
+        </div>
+        <div class="contact-info">
+            <p>Bhavnagar, Gujarat, India</p>
+            <p><a href="tel:+undefined-8735890374">+undefined-8735890374</a></p>
+            <p><a href="mailto:vr5957512@gmail.com">vr5957512@gmail.com</a></p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="tel" placeholder="Phone" required>
+            <input type="email" placeholder="Email address" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="contact-button">Contact Us</button>
+        </form>
+    </section>
+
+    <section class="container map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15072.133247822873!2d72.03179307692653!3d21.68285936614108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBhavnagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1701863153998!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="container">
+        
+            <a href="https://www.instagram.com/rathod_3075?igsh=MTU4bDk4cnR1c3pteQ==" class="social-icon"> Instagram<i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091670036107&mibextid=ZbWKwL" class="social-icon">Facebook<i class="fab fa-facebook"></i></a>
+           
+            </div>
+    </footer>
+</body>
+</html>
